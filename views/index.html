@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Shri Narayan Tiwari</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#strength">My Strength</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h1>Hello, I'm Shri Narayan Tiwari</h1>
+            <p>I am a passionate Web Developer.</p>
+        </div>
+    </section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am an enthusiastic web developer with a creative attitude and a great eye for detail.</p>
+        <!-- Download Button -->
+        <a href="/Users/shwetkettiwari/Downloads/shriResume.pdf" download="/Users/shwetkettiwari/Downloads/shriResume.pdf" class="download-btn">
+            Download Resume
+        </a>
+    </div>
+</section>
+
+
+    <section id="strength" class="strength">
+        <div class="container">
+            <h2>My Strength</h2>
+            <div class="card">
+                <h3>Hard Working</h3>
+                <p>Hard work beats talent when talent doesn’t work hard.</p>
+            </div>
+            <div class="card">
+                <h3>Leadership</h3>
+                <p>Leadership is the capacity to translate a vision into reality.</p>
+            </div>
+            <div class="card">
+                <h3>Problem Solver</h3>
+                <p>The size and scope of the problem really doesn’t matter.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill-bar">
+                <div class="info">
+                    <span>HTML/CSS</span>
+                    <span>50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress html"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <span>C/C++</span>
+                    <span>40%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress c"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <span>Java</span>
+                    <span>10%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress java"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Details about project 1.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Details about project 2.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Details about project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="/contact" method="POST">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shri Narayan Tiwari. All rights reserved.</p>
+         <span>Shri narayan tiwari</span> <a href="">website url.</a>
+
+        <div class="social icons">
+            <a href="https://www.facebook.com/shrinarayan.tiwari.798" target="blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/shrinarayan-tiwari888" target="blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/shrinarayan_" target="blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="https://github.com/ShriNarayan08/Project-3_Portfolio-Website" target="blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="/public/js/script.js"></script>
+</body>
+</html>

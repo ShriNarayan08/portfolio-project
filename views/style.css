@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffeacb;
+    color: #dimgray;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #000106;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #575757;
+}
+
+.home {
+    background: #000000;
+    color: #cbdbff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.strength .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills .skill-bar {
+    margin-bottom: 20px;
+}
+
+.skills .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .bar .progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skills .bar .progress.html {
+    width: 50%;
+    background: #ff3b3b;
+}
+
+.skills .bar .progress.c {
+    width: 40%;
+    background: #3b82f6;
+}
+
+.skills .bar .progress.java {
+    width: 20%;
+    background: #f3b03b;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form .input-group {
+    margin-bottom: 20px;
+}
+
+.contact form .input-group input,
+.contact form .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact form button:hover {
+    background: #575757;
+}
+
+.projects .project-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about .download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #913737;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 52px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.about .download-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+/* Contact section styling */
+.contact .contact-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact .contact-content .column {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    margin-bottom: 15px;
+}
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+    margin-right: 15px;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #333;
+}
+
+.contact .right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .right form .fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field,
+.contact .right form .textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    
+}
+
+.right form .button-area {
+    display: flex;
+    justify-content: center;
+}
+
+.right form .button-area button {
+    width: 160px;
+    height: 45px;
+    border-radius: 6px;
+    background: crimson;
+    color: #fff;
+    border: 2px solid crimson;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+    background: none;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer {
+    background-color: #000000; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Padding for top and bottom */
+    margin-top: 40px; /* Space above the footer */
+}
+
+footer span {
+    font-size: 1.2em; /* Slightly larger text size */
+    font-weight: bold; /* Bold text */
+}
+
+footer a {
+    color: #4CAF50; /* White text for links */
+    text-decoration: none; /* No underline on links */
+    margin-left: 5px; /* Space between text and link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-icons {
+    margin-top: 15px; /* Space above social icons */
+}
+
+.social-icons a {
+    color: #fff; /* White icons */
+    font-size: 2em; /* Increase icon size */
+    margin: 0 10px; /* Space between icons */
+    display: inline-block; /* Align icons horizontally */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-icons a:hover {
+    color: #1da1f2; /* Change icon color on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+    footer span {
+        display: block; /* Stack name and URL on small screens */
+        margin-bottom: 10px; /* Space between name and URL */
+    }
+
+    .social-icons a {
+        font-size: 1.9em; /* Slightly smaller icons on small screens */
+    }
+}
